@@ -1,7 +1,6 @@
 .body {
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -80,7 +79,7 @@ p {
     margin: 0px;
 }
 
-button {
+.button1 {
     margin-top: 10px;
     background-color: #3882F6;
     border-radius: 8px;
@@ -146,8 +145,58 @@ button {
     width: 750px;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 40px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    margin-bottom: 100px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: auto;
+    height: 100px;
+    width: 800px;
+    background-color: #3882F6;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.text-bottom {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   color: white;
+}
+
+.text1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button2 {
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: white;
+    color: #F9FAF8;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+}
+.bottom-part {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    height: 70px;
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
