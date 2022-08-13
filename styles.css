@@ -116,6 +116,7 @@ button {
     justify-content: center;
     flex-direction: row;
     gap: 35px;
+    margin-bottom: 150px;
 }
 
 .box p {
@@ -123,4 +124,30 @@ button {
     font-size: 18px;
     color: #1F2937;
     width: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.top-quote {
+    display: flex;
+    margin: auto;
+    width: 750px;
+    padding-top: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+
+.bot-quote {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width: 750px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
